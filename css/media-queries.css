@@ -3,12 +3,35 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 40%;
+        justify-content: center;
     }
 
     .alert-info {
         border: 2px solid grey;
         background-color: lightskyblue;
         align-self: stretch;
+    }
+
+    .center-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-img{
+        min-width: 20%;
+    }
+    #skip-nav {
+        display: flex;
+        text-decoration: none;
+        text-decoration-color: black;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-section{
+        display: flex;
+        flex-direction: column;
     }
 }
