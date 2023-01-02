@@ -1,0 +1,14 @@
+@media screen and (min-width:576px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .alert-info {
+        border: 2px solid grey;
+        background-color: lightskyblue;
+        align-self: stretch;
+    }
+}
