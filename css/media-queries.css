@@ -94,9 +94,7 @@
     #title {
         margin: 1em .5em;
     }
-    ul {
-       margin:
-    }
+
     ul.nav-links {
         display: flex;
         flex-direction: row;
@@ -104,5 +102,34 @@
     .nav-links > li {
         background-color: white;
     }
+    nav2 {
+        display: flex;
+        align-items: center;
+    }
+    div.header-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+    .main {
+        display: inline-block;
+        width: 67%
+    }
+    h2{
+        padding: 1em 0;
+    }
+
+    .sub-section{
+        display: inline-block;
+        width: 32%;
+    }
+    footer{
+        display: inline-block;
+        position: relative;
+        margin-top: 22em;
+    }
+
 }
 
