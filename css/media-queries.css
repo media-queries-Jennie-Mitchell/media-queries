@@ -3,14 +3,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .alert-info {
         border: 2px solid grey;
         background-color: lightskyblue;
-        align-self: stretch;
+        align-self: center;
+        font-size: 10px;
+        height: 50px;
+        width: 100%
     }
 
     .center-item {
@@ -18,14 +20,30 @@
         justify-content: center;
     }
 
-    .header-img{
-        min-width: 20%;
+    .header-img > img{
+        max-width: 200px;
     }
     #skip-nav {
         display: flex;
         text-decoration: none;
-        text-decoration-color: black;
+        color: black;
+        align-items: center;
+        font-size: 3em;
     }
+    #title {
+        display: inline-block;
+        margin: auto;
+        font-size: 5em;
+    }
+    .nav-links > li{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+        background-color: grey;
+
+    }
+
     .main {
         display: flex;
         flex-direction: column;
