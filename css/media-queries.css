@@ -81,3 +81,28 @@
         justify-content: flex-end;
     }
 }
+
+@media screen and (min-width:992px) {
+    .hidden-on-desktop {
+        display: none;
+    }
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #title {
+        margin: 1em .5em;
+    }
+    ul {
+       margin:
+    }
+    ul.nav-links {
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-links > li {
+        background-color: white;
+    }
+}
+
